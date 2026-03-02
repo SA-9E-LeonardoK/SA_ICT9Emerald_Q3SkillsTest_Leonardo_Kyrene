@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bauhaus";
+  src: url("ITCBauhaus.otf") format("opentype");
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #fdf6e3;
+  color: #4a3521;
+}
+
+h1, h2 {
+  font-family: "Bauhaus";
+  color: #4a3521;
+}
+
+nav {
+  background-color: #ffc2c6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin: 10px 10px 0px 10px;
+  border: 3px solid #4a3521;
+  border-radius: 15px;
+  border-color: #4a3521;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  gap: 30px;
+}
+
+.logo img {
+  width: 80px;
+  margin-top: 5px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #ffc2c6;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 5px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  border: 3px solid #4a3521;
+  border-radius: 15px;
+  border-color: #4a3521;
+}
+
+.lang-btn {
+  background-color: #3b2b2b;
+  color: #fdf6e3;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 20px;
+  margin-left: 30px;
+}
+
+.lang-btn:hover {
+  background-color: #3b2b2b !important;
+  color: #fdf6e3 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
